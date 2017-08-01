@@ -1,0 +1,30 @@
+/*商品标题*/
+.shopTit{
+	height: 44px;
+	font-family: "Microsoft YaHei","微软雅黑";
+	line-height: 44px;
+	margin-bottom: 10px;
+}
+
+.shopTit h3{
+	font-size: 24px;
+	float: left;
+	margin-left: 15px;
+	font-weight: normal;
+}
+
+.shopTit .leftArea{
+	width: 190px;
+}
+
+.icon{
+	width: 44px;
+	height: 44px;
+	padding:1px solid #9DE8FC;
+	background-color: #4bc7c7;
+	float: left;
+}
+
+.more:hover{
+	text-decoration: underline;
+}

@@ -4,6 +4,11 @@
 	<title></title>
 	<link rel="stylesheet" type="text/css" href="style/reset.css">
 	<link rel="stylesheet" type="text/css" href="style/main.css">
+	<link rel="stylesheet" type="text/css" href="style/topbar.css">
+	<link rel="stylesheet" type="text/css" href="style/shopClass.css">
+	<link rel="stylesheet" type="text/css" href="style/banner.css">
+	<link rel="stylesheet" type="text/css" href="style/shopTit.css">
+	<link rel="stylesheet" type="text/css" href="style/shopList.css">
 </head>
 <body>
 <div class="headerBar">
@@ -28,10 +33,10 @@
 			<input type="text" class = "search_text" name="">
 			<input type="button" value = "搜 索" class ="search_btn fr" name="">
 		</div>
-<div class="shopCar fr">
-	<span class="shopText fl">购物车</span>
-	<span class="shopNum fl">0</span>
-</div>
+	<div class="shopCar fr">
+		<span class="shopText fl">购物车</span>
+		<span class="shopNum fl">0</span>
+	</div>
 		
 	</div>
 </div>
@@ -93,7 +98,8 @@
 					<a href="#">保健</a></dd>
 				</dl>
 			</div>
-			<div class="shopClass_list">
+
+	<div class="shopClass_list hide">
 				<dl class="shopList_item">
 					<dt>电脑整机</dt>
 					<dd>
@@ -185,13 +191,11 @@
 						<a href="#">录音笔</a>
 					</dd>
 				</dl>
-			<div class="shopList_links">
-				<a href="#">电脑整机频道<span></span></a><a href="#">硬件/外设频道<span></span></a>
-			</div>
-			</div>
-
-
+		<div class="shopList_links">
+			<a href="#">电脑整机频道<span></span></a><a href="#">硬件/外设频道<span></span></a>
 		</div>
+	</div>
+	</div>
 		<ul class="nav fl">
 			<li><a href="#" class="active">数码城</a></li>
 			<li><a href="#" class="active">天黑黑</a></li>
@@ -200,8 +204,90 @@
 			<li><a href="#" class="active">二手特卖</a></li>
 			<li><a href="#" class="active">名品会</a></li>
 		</ul>
+		</div>
 	</div>
 </div>
+
+<div class="banner comWidth clearfix">
+	<div class="banner_bar">
+		<ul class="imgBox">
+			<li>
+				<a href="#"><img src="images/banner/iphone.png" alt="banner_iphone"></a>
+				<a href="#"><img src="images/banner/ios11.png" alt="banner_ios11"></a>
+				<a href="#"><img src="images/banner/iwatch.png" alt="banner_iwatch"></a>
+			</li>
+		</ul>
+		<div class="imgNum">
+			<a href="#"></a>
+			<a href="#" class="active"></a>
+			<a href="#"></a>
+		</div>
+	</div>
 </div>
+
+<div class="shopTit comWidth">
+	<span class="icon"><img src="images/icon/icon.png" alt="icon"></span>
+	<h3>苹果手表</h3>
+	<a href="#" class="more fr">更多&gt;&gt;</a>
+</div>
+<div class="shopList comWidth clearfix">
+	<div class="leftArea">
+	<ul>
+		<a href="#"><img src="images/banner/watch.png" alt="banner_iphone"></a>
+		<!-- <a href="#"><img src="images/banner/watch2.png" alt="banner_iphone"></a> -->
+	</ul>
+
+	</div>
+
+	<div class="rightArea">
+		<div class="shopList_top clearfix">
+			<div class="shop_item">
+				<div class="shop_img">
+					<a href="#"><img src="images/banner/watch3-item.png" alt=""></a>
+				</div>
+				<h3>WATCH EDITION</h3>
+				<p>1899元</p>
+			</div>
+
+			<div class="shop_item">
+				<div class="shop_img">
+					<a href="#"><img src="images/banner/watch3-item.png" alt=""></a>
+				</div>
+				<h3>WATCH EDITION</h3>
+				<p>1899元</p>
+			</div>
+
+			<div class="shop_item">
+				<div class="shop_img">
+					<a href="#"><img src="images/banner/watch3-item.png" alt=""></a>
+				</div>
+				<h3>WATCH EDITION</h3>
+				<p>1899元</p>
+			</div>
+
+			<div class="shop_item">
+				<div class="shop_img">
+					<a href="#"><img src="images/banner/watch3-item.png" alt=""></a>
+				</div>
+				<h3>WATCH EDITION</h3>
+				<p>1899元</p>
+			</div>
+		</div>
+
+		<div class="shopList_sm">
+			<div class="shopItem_sm">
+				<div class="shopItem_smImg">
+					<a href="#"><img src="images/banner/watch1-item.png" alt=""></a>
+				</div>
+				<div class="shopItem_text">
+					<p>精密陶瓷表壳搭配运动型表带</p>
+					<h3>￥200.00</h3>
+				</div>
+			</div>
+		</div>
+
+	</div>
+</div>
+
 </body>
 </html>

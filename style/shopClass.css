@@ -1,0 +1,131 @@
+/*商品弹出列表*/
+.shopClass_show {
+	background-color: #4593FD;
+	position: absolute;
+	left: 0px;
+	top: 35px;
+	width: 100%;
+	border-left: #4593FD solid 1px;
+	margin-bottom: 15 px;
+}
+.shopClass_item {
+	padding: 14px 10px;
+	border-bottom: #3487F2 solid 1px;
+	border-top: #5AA1FE solid 1px;
+}
+
+.shopClass_item dt {
+	height: 22 px;
+	background: url(../images/icon/shop.jpg) right center no-repeat;
+}
+
+.shopClass_item .b{
+	/*	font-size: 14px;
+		font-family: "Microsoft YaHei","微软雅黑";
+		font-weight:bold;*/
+	font: 14px/1 "Microsoft YaHei","微软雅黑";
+}
+
+.shopClass_item a{
+	color: #FFFFFF;
+
+}
+.shopClass_item dd a:hover {
+	text-decoration: underline;
+}
+
+
+.shopClass_item .aLink{
+	width: 48 px;
+	height: 20 px;
+	text-decoration: underline;
+}
+
+/*shopClass_item active 状态*/
+.shopClass_active {
+	background-color: #FFFFFF;
+}
+.shopClass_active a{
+	color: black;
+}
+.shopClass_active .aLink{
+	color: #45F66C;
+	text-decoration: none;
+}
+
+.shopClass_active dt{
+	background:none;
+}
+
+/*弹出菜单*/
+.shopClass_list{
+	width: 568px;
+	/*height: 378px;*/
+	border:#D8EEFA solid 1px;
+	position: absolute;
+	left: 190px;
+	top: 35px;
+	background-color: #FFFFFF;
+	padding: 0px 19px 14px 20px;
+}
+
+.shopClass_list dl{
+	/*padding-top: 16px;
+	padding-left: 20px;*/
+	padding: 12px 0px 7px 0px;
+	/*padding-top: 12px;
+	padding-bottom: 7px;
+	padding-left: 0px;*/
+	border-bottom: #BCB9B9 solid 1px;
+}
+
+.shopList_item {
+	padding-left: 19 px;
+	padding-right: 19 px;
+}
+.shopList_item dt{
+	color: #658EF7;
+	font-weight: bold;
+	float: left;
+	width: 51px;
+	text-align: left;
+}
+
+.shopList_item dd{
+	margin-left: 86px;
+/*	line-height: 24px;
+*/}
+
+.shopList_item a{
+	/*height: 16px;*/
+	display: inline-block;
+	color: #4C4A4A;
+	margin-right: 13px;
+	margin-bottom: 5px;
+}
+
+.shopList_item a:hover {
+	color: orange;
+}
+
+.shopList_links {
+	margin-top: 15px;
+}
+
+.shopList_links a{
+	background-color: #368CEF;
+	color: white;
+	display: inline-block;
+	height: 26px;
+	font-size: 12px;
+	padding: 8px 10px 0px 18px;
+	margin-right: 10px;
+}
+
+.shopList_links span{
+	width: 11px;
+	height: 7px;
+	background: url(../images/icon/shop.jpg) left center no-repeat;
+	display: inline-block;
+	margin-left: 7px;
+}

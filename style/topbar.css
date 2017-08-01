@@ -1,0 +1,149 @@
+/*topBar*/
+.topBar{
+	height: 31px;
+	background-color: #F7F7F7;
+	line-height: 31px;
+
+}
+
+.collection{
+	background: url(../images/icon/star.jpg) left center no-repeat;
+	padding-left: 19px;
+	font-weight: bold;
+}
+
+.topBar a:hover{
+	color: red;
+}
+/*logo*/
+.logoBar{
+	height: 85px;
+	background-color: #1D7AD9;
+	/*background-color: #FFFFFF;*/
+}
+
+.logo{
+	padding-left: 41px;
+	padding-top: 13px;
+}
+
+.search_box{
+	width: 430px;
+	padding-top: 23px;
+	padding-left: 185px;
+}
+/*
+.search_text{
+	width: 350px;
+	height: 14px;
+	line-height: 14px;
+	padding: 11px 5px 10px;
+	background-color: #FFFFFF;
+	要考虑到IE6	，其中一种方法
+}*/
+
+.search_text{
+	width: 350px;
+	height: 35px;
+	line-height: 35px\9;/*css hack \9代表所有的ie浏览器*/
+	padding: 0px 5px;
+	background-color: #FFFFFF;
+	/*width: 348px;
+	height: 33px;
+	background-color: #F0ECEC;
+	border:#F0ECEC solid 1px;*/
+}
+
+
+.search_btn{
+	width: 70px;
+	height: 35px;
+	font-size: 14px;
+	font-family: "Microsoft YaHei","微软雅黑";
+	background-color: #F88B13;
+	color: #ffffff;
+}
+/*shopCar*/
+.shopCar{
+	width: 145px;
+	height: 35px;
+	background-color: #F88B13;
+	margin-top: 23px;
+	font: 14px/35px "Microsoft YaHei","微软雅黑";
+	color: #FFFFFF;
+	margin-right: 59px;
+}
+
+.shopText{
+	/*font-size: 14px;
+	font-family: "Microsoft YaHei","微软雅黑";
+	line-height: 35px;*/
+	/*font: 14px/35px "Microsoft YaHei","微软雅黑";
+	color: #ffffff;*/
+	height: 100%;
+	width: 87px;
+	border-right: #E27A00 solid 1px;
+	background: url(../images/icon/shopCar.jpg) 10px center no-repeat;
+	/*display: inline-block;*/
+	/*text-indent好像只可以作用于块级元素？
+	但是这里好像也可以作用于span？*/
+	text-indent: 40px;
+
+}
+
+.shopNum{
+	width: 27px;
+	height: 35px;
+	border-left: #FF9C01 solid 1px;
+	background: url(../images/icon/triangle.jpg) 33px center no-repeat;
+	text-align: right;
+	padding-right: 29px;
+}
+/*导航*/
+.navBox{
+	height: 35px;
+	background-color: #1369C0;
+	color: #FFFFFF;
+}
+.shopClass{
+	width: 190px;
+	position: relative;
+}
+
+.shopClass h3{
+	/*不能放在shopClass里面，因为它的子元素都会继承会造成一些不必要的麻烦*/
+	text-align: center;
+	line-height: 35px;
+}
+
+.shopClass i{
+	width: 11px;
+	height: 7px;
+	overflow: hidden;
+	background: url(../images/icon/down.jpg) left center no-repeat;
+	display: inline-block;
+	margin-left: 11px;
+}
+
+.nav,shopClass h3{
+	font-family: "Microsoft YaHei","微软雅黑";
+
+}
+.nav{
+	line-height: 35px;
+}
+
+.nav li{
+	float: left;
+}
+
+.nav a{
+	height: 35px;
+	display: inline-block;
+	padding:0px 35px;
+	color: #FFFFFF;
+}
+
+.nav .active{
+	background-color: #4593FD;
+}

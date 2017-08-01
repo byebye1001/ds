@@ -1,0 +1,49 @@
+.banner{
+	margin-bottom: 15px;
+	height: 326px;
+}
+.banner_bar{
+	width: 810px;
+	height: 326px;
+	float: right;
+	position: relative;
+	overflow: hidden;
+}
+
+.imgBox{
+	width: 810px;
+	height: 326px;
+	position: absolute;
+	left: 0;
+	top: 0;
+
+}
+.imgBox li{
+	float: left;
+}
+.imgBox img{
+	width: 810px;
+	height: 326px;
+	display: block;
+}
+
+.imgNum{
+	position: absolute;
+	left: 0;
+	bottom: 15px;
+	width: 100%;
+	text-align: center;
+}
+
+.imgNum a{
+	width: 20px;
+	height: 1px;
+	background-color: #E4E4E4;
+	display: inline-block;
+	overflow: hidden;
+	margin:0px 3px;
+}
+
+.imgNum .active{
+	background-color: #FB693A;
+}
